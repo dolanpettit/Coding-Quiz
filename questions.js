@@ -26,7 +26,7 @@ var questions = [
       "Booleans",
       "All of the above",
     ],
-    answer: 0,
+    answer: 3,
   },
 
   {
