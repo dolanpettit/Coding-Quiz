@@ -19,3 +19,5 @@ The final real function at work is the submitScore() function which is activated
 This page shows your initials and score by running a for loop contained within the end.js file. For each occurence of a userScore, the computer creates a new "li" element and appends it to the scoreList. This page also gives you the ability to clear your scores and/or go back to the start screen of the quiz.
 
 This has been an incredible assignment to work on because it's really given me a preview of the work required to build even the smallest of dynamic applications, and also a great intro into using localStorage. I'm very much looking forward to being able to implement Jquery into my code for the next assignment.
+
+<img src="codingQuizScreengrab.png">
