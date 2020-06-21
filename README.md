@@ -2,7 +2,7 @@
 
 The purpose of this exercise was to create a timed code quiz with multiple choice questions. The application contains html and css whose content is dynamically changed by my JavaScript code.
 
-The first step in this assignment was creating my index.html file and all of the content within it. This had to contain the link to my highscores page, a timer, the starting screen <div>, quiz questions <div>, out of time <div>. and lastly my ending screen <div> as well as the links to two of my .js files. Most of those are pretty self explanatory but as for the quiz contianer, that simply contained one question and 4 labels for the possible answers.
+The first step in this assignment was creating my index.html file and all of the content within it. This had to contain the link to my highscores page, a timer, the starting screen "div", quiz questions "div", out of time "div", and lastly my ending screen "div", as well as the links to two of my .js files. Most of those are pretty self explanatory but as for the quiz contianer, that simply contained one question and 4 labels for the possible answers.
 
 The next step was to make my highscores page. This was slightly more simple because the only requirements of this page is to display user scores, to be able to clear those scores, and to redirect to the starting screen.
 
@@ -16,6 +16,6 @@ The questionBeingAsked variable is being incremented within what is probably our
 
 The final real function at work is the submitScore() function which is activated by an onClick event placed on the Submit button. This function utilizes localStorage by pushing the name and score object keys to the scores variable and then redirecting you to the highscores.html page.
 
-This page shows your initials and score by running a for loop contained within the end.js file. For each occurence of a userScore, the computer creates a new <li> element and appends it to the scoreList. This page also gives you the ability to clear your scores and/or go back to the start screen of the quiz.
+This page shows your initials and score by running a for loop contained within the end.js file. For each occurence of a userScore, the computer creates a new "li" element and appends it to the scoreList. This page also gives you the ability to clear your scores and/or go back to the start screen of the quiz.
 
-This has been an incredible assignment to work on because it's really given me a preview of the work required to build even the smallest
+This has been an incredible assignment to work on because it's really given me a preview of the work required to build even the smallest of dynamic applications, and also a great intro into using localStorage. I'm very much looking forward to being able to implement Jquery into my code for the next assignment.
