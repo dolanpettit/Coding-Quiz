@@ -83,9 +83,13 @@ function submitScore() {
   }
   var scores = JSON.parse(localStorage.getItem("Scores"));
   var initials = document.getElementById("initials-input").value;
-  scores.push({ name: initials, score: startTime });
-  localStorage.setItem("Scores", JSON.stringify(scores));
-  location.replace("highscores.html");
+  if (initials === "" || initials.length > 3) {
+    alert("Please only input initials");
+  } else {
+    scores.push({ name: initials, score: startTime });
+    localStorage.setItem("Scores", JSON.stringify(scores));
+    location.replace("highscores.html");
+  }
 }
 
 function fadeOutEffect(fadeTarget, timeOut) {
