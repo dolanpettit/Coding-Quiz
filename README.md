@@ -20,4 +20,4 @@ This page shows your initials and score by running a for loop contained within t
 
 This has been an incredible assignment to work on because it's really given me a preview of the work required to build even the smallest of dynamic applications, and also a great intro into using localStorage. I'm very much looking forward to being able to implement Jquery into my code for the next assignment.
 
-<img src="codingQuizScreengrab.png">
+<img src="./images/codingQuizScreengrab.png">
